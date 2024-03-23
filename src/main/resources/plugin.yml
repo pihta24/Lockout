@@ -1,0 +1,17 @@
+name: LockoutPlugin
+main: ru.pihta24.lockout.Lockout
+version: 1.0.0
+author: pihta24
+website: https://pihta24.ru
+api-version: 1.19
+permissions:
+  lockout.admin:
+    default: op
+commands:
+  start:
+    description: "Starts the game"
+    aliases:
+      - start
+    usage: "/start"
+    permission: lockout.admin
+    permission-message: "You do not have permission to use this command"
